@@ -1,0 +1,479 @@
+/* Quotes Page Styles */
+.quotes-page {
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.quotes-hero {
+  height: 100vh;
+  background: 
+    linear-gradient(135deg, rgba(251, 191, 36, 0.8) 0%, rgba(245, 158, 11, 0.7) 100%),
+    url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.quotes-hero h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.quotes-hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+/* Featured Quote Section */
+.featured-quote-section {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+}
+
+.featured-quote-card {
+  background: white;
+  padding: 4rem;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.quote-mark {
+  font-size: 8rem;
+  color: #f59e0b;
+  position: absolute;
+  top: -2rem;
+  left: 2rem;
+  font-family: serif;
+  opacity: 0.3;
+}
+
+.featured-quote-text {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #1f2937;
+  line-height: 1.4;
+  margin: 2rem 0;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 1.5rem;
+  color: #6b7280;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.quote-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.favorite-btn, .share-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.favorite-btn {
+  background: linear-gradient(135deg, #ec4899, #be185d);
+  color: white;
+}
+
+.favorite-btn.favorited {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+}
+
+.share-btn {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+}
+
+.favorite-btn:hover, .share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Categories Section */
+.categories-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.categories-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 3rem;
+}
+
+.categories-filter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.category-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #1f2937;
+}
+
+.category-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.category-btn.active {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+
+/* Quotes Grid Section */
+.quotes-grid-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.quotes-grid-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 3rem;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.quote-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.quote-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.small-quote-mark {
+  font-size: 3rem;
+  color: #f59e0b;
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  font-family: serif;
+  opacity: 0.3;
+}
+
+.quote-content {
+  margin-bottom: 1.5rem;
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  color: #1f2937;
+  line-height: 1.6;
+  margin: 1rem 0;
+  font-style: italic;
+  padding-left: 2rem;
+}
+
+.quote-card .quote-author {
+  font-size: 1rem;
+  color: #6b7280;
+  font-weight: 500;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.quote-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+}
+
+.quote-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #f3f4f6;
+  color: #6b7280;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.quote-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.favorite-btn-small, .share-btn-small {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.favorite-btn-small:hover, .share-btn-small:hover {
+  background: #f3f4f6;
+  transform: scale(1.1);
+}
+
+.favorite-btn-small.favorited {
+  background: #fce7f3;
+}
+
+/* Subscription Section */
+.subscription-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+}
+
+.subscription-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.subscription-card h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.subscription-card p {
+  color: #6b7280;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.subscription-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.email-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 25px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: #7c3aed;
+}
+
+.subscribe-btn {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.4);
+}
+
+.subscription-note {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+/* Favorites Section */
+.favorites-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.favorites-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 3rem;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.favorite-quote-card {
+  background: linear-gradient(135deg, #fce7f3 0%, #f3e8ff 100%);
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.favorite-quote-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.remove-favorite-btn {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.remove-favorite-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+}
+
+/* Widget Section */
+.widget-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.widget-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.widget-card h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.widget-preview {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+
+.widget-demo {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.widget-quote {
+  font-size: 1.1rem;
+  color: #1f2937;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.widget-author {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.get-widget-btn {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-widget-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .quotes-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .quotes-hero p {
+    font-size: 1.2rem;
+  }
+  
+  .featured-quote-text {
+    font-size: 1.8rem;
+  }
+  
+  .subscription-form {
+    flex-direction: column;
+  }
+  
+  .categories-filter {
+    justify-content: center;
+  }
+  
+  .quote-footer {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+}
