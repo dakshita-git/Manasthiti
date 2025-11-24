@@ -89,8 +89,27 @@
 }
 
 .benefit-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s ease;
+}
+
+.benefit-icon svg {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.benefit-card:hover .benefit-icon {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
 
 .benefit-card h3 {

@@ -367,18 +367,27 @@
 }
 
 .feature-icon {
-  font-size: 48px;
-  margin-bottom: 20px;
-  display: inline-block;
-  padding: 16px;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(135deg, #7c3aed, #a855f7);
-  border-radius: 50%;
+  border-radius: 20px;
   box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
   transition: all 0.3s ease;
 }
 
+.feature-icon svg {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
 .feature-card:hover .feature-icon {
   transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 12px 30px rgba(124, 58, 237, 0.4);
 }
 
 .feature-card h3 {
@@ -410,12 +419,12 @@
     max-width: 300px;
   }
 }
-/
+
 * Notes Wrapper */
 .notes-wrapper {
   max-width: 600px;
   margin: 0 auto;
-}
+}AD
 
 /* About Content */
 .about-content {

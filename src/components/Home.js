@@ -17,8 +17,7 @@ const Home = () => {
   };
 
   const handleCallConnect = () => {
-    // For now, show an alert with call information
-    // In a real app, this would integrate with a calling service
+    
     alert('📞 Call Support Available!\n\nOur trained counselors are available:\n• Monday-Friday: 9 AM - 9 PM\n• Saturday-Sunday: 10 AM - 6 PM\n\nCall: 1-800-HEAL-NOW\n\nNote: This is a demo. In production, this would connect to a real support line.');
   };
 
@@ -76,17 +75,29 @@ const Home = () => {
         <div className="container">
           <div className="features">
             <div className="feature-card">
-              <div className="feature-icon">✏️</div>
+              <div className="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" fill="currentColor"/>
+                </svg>
+              </div>
               <h3>Share Anonymously</h3>
               <p>Express yourself safely without revealing your identity.</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">👥</div>
+              <div className="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" fill="currentColor"/>
+                </svg>
+              </div>
               <h3>Talk with Peers</h3>
               <p>Connect with mentors with peer skills when you're going through.</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">💚</div>
+              <div className="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/>
+                </svg>
+              </div>
               <h3>Relax & Heal</h3>
               <p>Listen to destressing music and explore self-care resources.</p>
             </div>

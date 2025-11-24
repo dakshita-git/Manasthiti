@@ -17,14 +17,10 @@
 
 .resources-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-}
-
-@media (max-width: 1024px) {
-  .resources-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .resource-card {
@@ -88,14 +84,28 @@
 }
 
 .resource-icon {
-  font-size: 36px;
-  margin-bottom: 12px;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.3s ease;
+}
+
+.resource-icon svg {
+  width: 40px;
+  height: 40px;
+  color: rgba(0, 0, 0, 0.7);
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
 }
 
 .resource-card:hover .resource-icon {
   transform: scale(1.2) rotate(10deg);
+}
+
+.resource-card:hover .resource-icon svg {
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .resource-content {
@@ -120,7 +130,7 @@
 
 @media (max-width: 768px) {
   .resources-grid {
-    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
     gap: 16px;
   }
 }

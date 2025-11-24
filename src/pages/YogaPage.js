@@ -107,22 +107,38 @@ const YogaPage = () => {
           <h2>Why Practice Yoga?</h2>
           <div className="benefits-grid">
             <div className="benefit-card">
-              <div className="benefit-icon">🧠</div>
+              <div className="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 3C9.23 3 6.19 5.95 6 9.66l-1.92 2.88c-.31.47-.48 1.03-.48 1.59V20c0 1.1.9 2 2 2h2v-3c0-1.1.9-2 2-2h5c1.1 0 2 .9 2 2v3h2c1.1 0 2-.9 2-2v-5.87c0-.56-.17-1.12-.48-1.59L19 9.66C18.81 5.95 15.77 3 13 3zm-2 10c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm4 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z" fill="currentColor"/>
+                </svg>
+              </div>
               <h3>Mental Clarity</h3>
               <p>Improve focus and reduce mental clutter through mindful movement</p>
             </div>
             <div className="benefit-card">
-              <div className="benefit-icon">💪</div>
+              <div className="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z" fill="currentColor"/>
+                </svg>
+              </div>
               <h3>Physical Strength</h3>
               <p>Build flexibility, balance, and core strength naturally</p>
             </div>
             <div className="benefit-card">
-              <div className="benefit-icon">😌</div>
+              <div className="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8z" fill="currentColor"/>
+                </svg>
+              </div>
               <h3>Stress Relief</h3>
               <p>Release tension and find calm in your daily routine</p>
             </div>
             <div className="benefit-card">
-              <div className="benefit-icon">❤️</div>
+              <div className="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/>
+                </svg>
+              </div>
               <h3>Emotional Balance</h3>
               <p>Connect with your inner self and cultivate emotional wellness</p>
             </div>
