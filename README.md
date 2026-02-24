@@ -1,4 +1,4 @@
-# 🧠 HEAL - Mental Health Website
+# 🧠 Manasthiti- Mental Health Website
 
 A responsive and interactive **mental health platform** designed to support users experiencing **social anxiety, loneliness, and general mental wellness challenges**. HEAL provides tools for emotional support, mindfulness, relaxation, and connecting with others facing similar challenges.  
 
