@@ -77,8 +77,9 @@
 .share-submit-btn:disabled {
   background: #9ca3af;
   cursor: not-allowed;
-}.
-error-message {
+}
+
+.error-message {
   background: #fee2e2;
   color: #dc2626;
   padding: 12px;
@@ -142,12 +143,6 @@ error-message {
 
 @keyframes spin {
   to { transform: rotate(360deg); }
-}
-
-.share-submit-btn:disabled {
-  background: #9ca3af;
-  cursor: not-allowed;
-  transform: none;
 }
 
 .share-submit-btn:disabled:hover {
