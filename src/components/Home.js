@@ -127,11 +127,11 @@ const Home = () => {
               connect with understanding peers, and discover resources that support your mental health journey.
             </p>
 
-            <div className="about-links">
-              <button className="about-link">Contact Us</button>
-              <button className="about-link">Privacy Policy</button>
-              <button className="about-link">Terms of Service</button>
-            </div>
+           <div className="about-links">
+           <button className="about-link">Contact Us</button>
+          <button className="about-link">Privacy Policy</button>
+           <button className="about-link">Terms of Service</button>
+         </div>
 
           </div>
         </div>
