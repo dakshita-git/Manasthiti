@@ -18,7 +18,7 @@
 
 ## 📖 About
 
-**Share Talk, Heal** is a comprehensive mental health support platform designed to provide a safe, anonymous space for individuals to share their feelings, connect with peers, and access mental wellness resources. Built with React and Firebase, it offers real-time community interaction, guided meditation, and curated self-care resources.
+**Manasthiti** is a comprehensive mental health support platform designed to provide a safe, anonymous space for individuals to share their feelings, connect with peers, and access mental wellness resources. Built with React and Firebase, it offers real-time community interaction, guided meditation, and curated self-care resources.
 
 ### 🎯 Mission
 
