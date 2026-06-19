@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🌟 Manasthiti - Mental Health Support Platform
 
 <div align="center">
