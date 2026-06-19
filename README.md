@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌟 Share Talk, Heal - Mental Health Support Platform
 
 <div align="center">
@@ -394,3 +395,6 @@ If this project helped you, please consider:
 © 2025 Share Talk, Heal. All rights reserved.
 
 </div>
+=======
+# Manasthiti
+>>>>>>> 212f5902db58113657643a1355e4a8a18e3aa6a0
