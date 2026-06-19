@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# 🌟 Share Talk, Heal - Mental Health Support Platform
+# 🌟 Manasthiti - Mental Health Support Platform
 
 <div align="center">
 
